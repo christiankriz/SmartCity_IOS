@@ -9,7 +9,7 @@
 import UIKit
 import UNAlertView
 
-class AlertInformationController: UIViewController, UIWebViewDelegate{
+class AlertInformationController: UIViewController, UIWebViewDelegate {
     @IBOutlet weak var webView: UIWebView!
     var urlString: String?
     @IBOutlet weak var publishDate: UILabel!
@@ -17,6 +17,7 @@ class AlertInformationController: UIViewController, UIWebViewDelegate{
     var heading: String?
     var iconImgUrl: String?
     var pubDate: String?
+    var menuController : MenuController?
     
     @IBOutlet weak var desc: UILabel!
     //@IBOutlet weak var busy: UIActivityIndicatorView!
@@ -25,7 +26,6 @@ class AlertInformationController: UIViewController, UIWebViewDelegate{
         super.viewDidLoad()
         //title = "Alerts Information"
         //busy.startAnimating()
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Menu", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(MenuController.menuButtonPressed(_:)))
         getIcon()
         getAlertImage()
         desc.text = heading
@@ -82,6 +82,32 @@ class AlertInformationController: UIViewController, UIWebViewDelegate{
         //busy.hidden = true
     }
     
+    
+    func menuButtonPressed(sender: UIBarButtonItem) {
+        
+        let smartMenuController = UIAlertController(title: "Smart City Menu", message: "Select Option", preferredStyle: .Alert)
+        let smartCityGuideButton = UIAlertAction(title: "Smartcity Guide", style: .Default, handler: { (action) -> Void in
+            //println("Button One Pressed")
+        })
+        let generalInforButton = UIAlertAction(title: "General Infor", style: .Default, handler: { (action) -> Void in
+            //println("Button Three Pressed")
+        })
+        let logOff = UIAlertAction(title: "Log Off", style: .Default, handler: { (action) -> Void in
+            //println("Button Four Pressed")
+        })
+        let buttonCancel = UIAlertAction(title: "Cancel", style: .Cancel) { (action) -> Void in
+            //println("Cancel Button Pressed")
+        }
+        smartMenuController.addAction(smartCityGuideButton)
+        //smartMenuController.addAction(emergencyContactButton)
+        smartMenuController.addAction(generalInforButton)
+        smartMenuController.addAction(logOff)
+        smartMenuController.addAction(buttonCancel)
+        
+        presentViewController(smartMenuController, animated: true, completion: nil)
+        
+    }
+
     
    }
 

@@ -22,6 +22,7 @@ class AlertController: UITableViewController, FeedListener {
 		tableView.delegate = self
 		tableView.dataSource = self
         tableView.allowsSelection = true
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Menu", style: UIBarButtonItemStyle.Plain, target: self, action: "AlertInformationController().menuButtonPressed:")
 
 //		let nib = UINib(nibName: "TableSectionHeader", bundle: nil)
 //		tableView.registerNib(nib, forHeaderFooterViewReuseIdentifier: "TableSectionHeader")

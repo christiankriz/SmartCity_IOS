@@ -25,6 +25,7 @@ class FAQController: UITableViewController {
 		// let nib = UINib(nibName: "TableSectionHeader", bundle: nil)
 		// tableView.registerNib(nib, forHeaderFooterViewReuseIdentifier: "TableSectionHeader")
 		//
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Menu", style: UIBarButtonItemStyle.Plain, target: self, action: "menuButtonPressed:")
 		tableView.reloadData()
 
 	}

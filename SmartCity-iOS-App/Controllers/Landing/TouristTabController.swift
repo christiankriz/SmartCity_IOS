@@ -15,8 +15,7 @@ class TouristBarController: UITabBarController {
 		super.viewDidLoad()
         title = "eThekwini Services"
         tabBarController?.selectedIndex = page
-        Util.logMessage("tabBarController?.selectedIndex \(page)")
-	}
+    }
 
     func setPageToStart(page: Int) {
         self.page = page
@@ -25,6 +24,5 @@ class TouristBarController: UITabBarController {
     override func viewWillAppear(animated: Bool) {
         self.selectedViewController = self.viewControllers![page]
     }
-
-
+    
 }

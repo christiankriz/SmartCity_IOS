@@ -10,7 +10,7 @@ import UIKit
 
 public class MenuController: UIViewController {
     
-    class func menuButtonPressed(sender: UIBarButtonItem) {
+    func menuButtonPressed(sender: UIBarButtonItem) {
         
         let smartMenuController = UIAlertController(title: "Smart City Menu", message: "Select Option", preferredStyle: .Alert)
         let smartCityGuideButton = UIAlertAction(title: "Smartcity Guide", style: .Default, handler: { (action) -> Void in
@@ -31,7 +31,7 @@ public class MenuController: UIViewController {
         smartMenuController.addAction(logOff)
         smartMenuController.addAction(buttonCancel)
         
-        .presentViewController(smartMenuController, animated: true, completion: nil)
+        presentViewController(smartMenuController, animated: true, completion: nil)
         
     }
 
