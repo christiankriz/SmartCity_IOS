@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B7E0E1478900F462F08844E22B86F54D754C1B36",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8B97C3E92F54AEE7A11C19836061E868E28724DE" : 0,
+    "B7E0E1478900F462F08844E22B86F54D754C1B36" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "49EF7688-BA8D-45D4-8B39-403BC1D198C5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8B97C3E92F54AEE7A11C19836061E868E28724DE" : "..",
+    "B7E0E1478900F462F08844E22B86F54D754C1B36" : "SmartCity_iOS_App\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SmartCity-iOS-App",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SmartCity-iOS-App\/SmartCity-iOS-App.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/malengatiger\/TigerGolf004.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8B97C3E92F54AEE7A11C19836061E868E28724DE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/malengatiger\/SmartCity_iOS_App.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B7E0E1478900F462F08844E22B86F54D754C1B36"
+    }
+  ]
+}

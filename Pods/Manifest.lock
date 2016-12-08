@@ -1,0 +1,47 @@
+PODS:
+  - Alamofire (3.1.5)
+  - Cloudinary (1.0.15)
+  - Crashlytics (3.8.3):
+    - Fabric (~> 1.6.3)
+  - DropDown (1.0.1)
+  - Fabric (1.6.11)
+  - Gloss (0.7.4)
+  - ObjectMapper (1.5.0)
+  - Toast-Swift (1.3.0)
+  - UNAlertView (0.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.1.2)
+  - Cloudinary
+  - Crashlytics
+  - DropDown (from `https://github.com/AssistoLab/DropDown`, branch `swift-2.2`)
+  - Fabric
+  - Gloss (~> 0.7.2)
+  - ObjectMapper (~> 1.2)
+  - Toast-Swift (~> 1.3.0)
+  - UNAlertView
+
+EXTERNAL SOURCES:
+  DropDown:
+    :branch: swift-2.2
+    :git: https://github.com/AssistoLab/DropDown
+
+CHECKOUT OPTIONS:
+  DropDown:
+    :commit: 773c3e6e086faf1e8d28c0782558eb97c5198e75
+    :git: https://github.com/AssistoLab/DropDown
+
+SPEC CHECKSUMS:
+  Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
+  Cloudinary: f80af4565ec08c521d5e58cb56d9fbe1e4595e40
+  Crashlytics: 2b6dbe138a42395577cfa73dfa1aa7248cadf39e
+  DropDown: 335df9e9547e97a861a60aed8448821e239d3513
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  Gloss: d86009ef4d12c221d889c4e3f9e1eb547ee6251d
+  ObjectMapper: 386645adca9d9d23b95eda43090b09d66444cf14
+  Toast-Swift: 25c3d98db42dc70d9a77b5006ee000e0becb458e
+  UNAlertView: d03f904fca18bc9cff44b5b4a923a413cf07b531
+
+PODFILE CHECKSUM: 42b0acb3c8973fc4b72f9d7c1ba8d6d36cb0b1e7
+
+COCOAPODS: 1.1.1

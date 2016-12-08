@@ -1,0 +1,6 @@
+framework module Pods_SmartCity_iOS_AppUITests {
+  umbrella header "Pods-SmartCity-iOS-AppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

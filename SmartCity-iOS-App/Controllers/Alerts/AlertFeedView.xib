@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AlertFeedItemCell" customModule="SmartCity_iOS_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gyu-uP-Tq8">
+                    <rect key="frame" x="25" y="270" width="336" height="234"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="234" id="JQM-rk-mTv"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqn-0A-ijz">
+                    <rect key="frame" x="30" y="65" width="331" height="127"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="127" id="gpj-Pz-z0f"/>
+                    </constraints>
+                    <string key="text">self.tableView.registerNib(UINib(nibName: "TableViewCell", bundle: NSBundle.mainBundle()), forCellReuseIdentifier: tableViewCellIdentifier)
+        
+        self.tableView.rowHeight = UITableViewAutomaticDimension
+        self.tableView.estimatedRowHeight = 50;</string>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Wednesday, 30 December 2090" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PLm-Kr-c8S">
+                    <rect key="frame" x="30" y="221" width="245" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.78893979059999997" green="0.2133260917" blue="0.098832316219999994" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="vqn-0A-ijz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="7R6-dE-ik0"/>
+                <constraint firstItem="vqn-0A-ijz" firstAttribute="leading" secondItem="PLm-Kr-c8S" secondAttribute="leading" id="C7i-7z-Dl4"/>
+                <constraint firstItem="Gyu-uP-Tq8" firstAttribute="top" secondItem="PLm-Kr-c8S" secondAttribute="bottom" constant="28" id="Dth-5D-UKD"/>
+                <constraint firstAttribute="trailing" secondItem="vqn-0A-ijz" secondAttribute="trailing" constant="14" id="FRr-vC-pIZ"/>
+                <constraint firstItem="Gyu-uP-Tq8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="25" id="MGv-WY-L7I"/>
+                <constraint firstItem="PLm-Kr-c8S" firstAttribute="top" secondItem="vqn-0A-ijz" secondAttribute="bottom" constant="31" id="SZ0-pb-peV"/>
+                <constraint firstItem="vqn-0A-ijz" firstAttribute="trailing" secondItem="Gyu-uP-Tq8" secondAttribute="trailing" id="Zqb-fh-aji"/>
+                <constraint firstItem="vqn-0A-ijz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="63" id="xiG-CQ-3Py"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <connections>
+                <outlet property="alertDate" destination="PLm-Kr-c8S" id="mNc-ad-Kp9"/>
+                <outlet property="alertImage" destination="Gyu-uP-Tq8" id="aQb-AK-N4C"/>
+                <outlet property="headLine" destination="vqn-0A-ijz" id="TpC-jI-hje"/>
+            </connections>
+            <point key="canvasLocation" x="274.5" y="138.5"/>
+        </view>
+    </objects>
+</document>
