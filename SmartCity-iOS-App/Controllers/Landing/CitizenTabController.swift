@@ -7,10 +7,15 @@
 //
 
 import UIKit
+import UNAlertView
 
 class CitizenTabController: UITabBarController {
 
 	var page: Int = 0
+    var landingPage : LandingPageController?
+    
+    let SEGUE_login = "loginSegue"
+    
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		self.tabBarController?.selectedIndex = page
@@ -32,7 +37,6 @@ class CitizenTabController: UITabBarController {
         
         let smartMenuController = UIAlertController(title: "Smart City Menu", message: "Select Option", preferredStyle: .Alert)
         let smartCityGuideButton = UIAlertAction(title: "Smartcity Guide", style: .Default, handler: { (action) -> Void in
-            //UIApplication.sharedApplication().openURL(NSURL(string: "etmobileguide.oneconnectgroup.com")!)
             let url : NSURL = NSURL(string: "http://www.etmobileguide.oneconnectgroup.com/")!
             if UIApplication.sharedApplication().canOpenURL(url) {
                 UIApplication.sharedApplication().openURL(url)
@@ -40,22 +44,41 @@ class CitizenTabController: UITabBarController {
             
         })
         let generalInforButton = UIAlertAction(title: "General Infor", style: .Default, handler: { (action) -> Void in
-            //println("Button Three Pressed")
+            //self.navigationController?.pushViewController(GeneralInforConroller(), animated: true)
+            self.performSegueWithIdentifier("toGeneralInforFromCityzenTab", sender: self)
         })
-        let logOff = UIAlertAction(title: "Log Off", style: .Default, handler: { (action) -> Void in
-            //println("Button Four Pressed")
-        })
+        //let logOff = UIAlertAction(title: "Log Off", style: .Default, handler: { (action) -> Void in
+            //self.logout(sender)
+        //    Util.removeProfile()
+        //    LandingPageController().startSegue()
+        //})
         let buttonCancel = UIAlertAction(title: "Cancel", style: .Cancel) { (action) -> Void in
             //println("Cancel Button Pressed")
         }
         smartMenuController.addAction(smartCityGuideButton)
         //smartMenuController.addAction(emergencyContactButton)
         smartMenuController.addAction(generalInforButton)
-        smartMenuController.addAction(logOff)
+        //smartMenuController.addAction(logOff)
         smartMenuController.addAction(buttonCancel)
         
         presentViewController(smartMenuController, animated: true, completion: nil)
         
     }
+    
+    func logout(sender: UIBarButtonItem) {
+        Util.logMessage("...........logging out")
+        
+        let d = UNAlertView(title: "Services LogOut", message: "Do you want to log out?");
+        d.addButton("Yes", action: {
+            Util.removeProfile()
+            self.performSegueWithIdentifier(self.SEGUE_login, sender: self)
+            
+        })
+        d.addButton("No", action: {
+            d.hidden = true
+        })
+        d.show()
+    }
+
     
 }

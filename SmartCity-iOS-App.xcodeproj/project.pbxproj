@@ -89,11 +89,12 @@
 		36B1D09D1D9BE84C000797B8 /* StatementPDFViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1D0941D9BE84C000797B8 /* StatementPDFViewerController.swift */; };
 		36B1D09E1D9BE84C000797B8 /* StatementListNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1D0951D9BE84C000797B8 /* StatementListNavigationController.swift */; };
 		36B1D0A11D9BE882000797B8 /* LoginCitizenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1D0A01D9BE882000797B8 /* LoginCitizenController.swift */; };
-		36B1D0A31D9BE93A000797B8 /* LandingStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36B1D0A21D9BE93A000797B8 /* LandingStoryboard.storyboard */; };
 		4EA1ED3D0C6AF4CFC12A1244 /* Pods_SmartCity_iOS_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9549E0B475748DE519F8DB01 /* Pods_SmartCity_iOS_AppUITests.framework */; };
 		B07DCAC83A095AC22A822265 /* Pods_SmartCity_iOS_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A998C4CBA7E19F1F69F4A588 /* Pods_SmartCity_iOS_AppTests.framework */; };
 		F610BF051DF6B86D00E47A0F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F610BF041DF6B86D00E47A0F /* MenuViewController.swift */; };
 		F665E0EC1DEEEA8F00C42919 /* AlertInforController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665E0EB1DEEEA8F00C42919 /* AlertInforController.swift */; };
+		F69A56D21E0035340018DB69 /* LandingStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69A56D11E0035340018DB69 /* LandingStoryboard.storyboard */; };
+		F6FCDBE71DFFF8D4006DC1D2 /* GeneralInfor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FCDBE61DFFF8D4006DC1D2 /* GeneralInfor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -203,7 +204,6 @@
 		36B1D0941D9BE84C000797B8 /* StatementPDFViewerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatementPDFViewerController.swift; sourceTree = "<group>"; };
 		36B1D0951D9BE84C000797B8 /* StatementListNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatementListNavigationController.swift; sourceTree = "<group>"; };
 		36B1D0A01D9BE882000797B8 /* LoginCitizenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCitizenController.swift; sourceTree = "<group>"; };
-		36B1D0A21D9BE93A000797B8 /* LandingStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LandingStoryboard.storyboard; sourceTree = "<group>"; };
 		3850B8057DC2009CEEE92924 /* Pods-SmartCity-iOS-AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCity-iOS-AppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartCity-iOS-AppUITests/Pods-SmartCity-iOS-AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		824315F21A45655CD2C0B3ED /* Pods-SmartCity-iOS-AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCity-iOS-AppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartCity-iOS-AppUITests/Pods-SmartCity-iOS-AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9549E0B475748DE519F8DB01 /* Pods_SmartCity_iOS_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartCity_iOS_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -213,6 +213,8 @@
 		E82D05A4CFB08C9D3D33DB0A /* Pods-SmartCity-iOS-AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCity-iOS-AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartCity-iOS-AppTests/Pods-SmartCity-iOS-AppTests.release.xcconfig"; sourceTree = "<group>"; };
 		F610BF041DF6B86D00E47A0F /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		F665E0EB1DEEEA8F00C42919 /* AlertInforController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertInforController.swift; sourceTree = "<group>"; };
+		F69A56D11E0035340018DB69 /* LandingStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LandingStoryboard.storyboard; sourceTree = "<group>"; };
+		F6FCDBE61DFFF8D4006DC1D2 /* GeneralInfor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralInfor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,7 +270,7 @@
 		36B1CFD21D9BDD8D000797B8 /* SmartCity-iOS-App */ = {
 			isa = PBXGroup;
 			children = (
-				36B1D0A21D9BE93A000797B8 /* LandingStoryboard.storyboard */,
+				F69A56D11E0035340018DB69 /* LandingStoryboard.storyboard */,
 				36B1D0591D9BE6CD000797B8 /* Controllers */,
 				36B1D01A1D9BE65E000797B8 /* DataModels */,
 				36B1D0031D9BE59B000797B8 /* Utils */,
@@ -359,6 +361,7 @@
 		36B1D0591D9BE6CD000797B8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F6FCDBE51DFFF8A1006DC1D2 /* GeneralInformation */,
 				F610BF031DF6B76F00E47A0F /* Menu */,
 				36B1D09F1D9BE868000797B8 /* Login */,
 				36B1D0661D9BE789000797B8 /* Accounts */,
@@ -492,6 +495,14 @@
 			name = Menu;
 			sourceTree = "<group>";
 		};
+		F6FCDBE51DFFF8A1006DC1D2 /* GeneralInformation */ = {
+			isa = PBXGroup;
+			children = (
+				F6FCDBE61DFFF8D4006DC1D2 /* GeneralInfor.swift */,
+			);
+			name = GeneralInformation;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -611,7 +622,7 @@
 				36B1CFDE1D9BDD8D000797B8 /* LaunchScreen.storyboard in Resources */,
 				36B1D0841D9BE81C000797B8 /* AlertFeedView.xib in Resources */,
 				36B1D07E1D9BE804000797B8 /* TableSectionHeader.xib in Resources */,
-				36B1D0A31D9BE93A000797B8 /* LandingStoryboard.storyboard in Resources */,
+				F69A56D21E0035340018DB69 /* LandingStoryboard.storyboard in Resources */,
 				36B1CFDB1D9BDD8D000797B8 /* Assets.xcassets in Resources */,
 				36B1CFD91D9BDD8D000797B8 /* Main.storyboard in Resources */,
 			);
@@ -675,7 +686,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./Fabric.framework/run 175143e1184a3bb852225bad8a9f73eff5ed2f50 91e2fcb5667bf7e373bcfb5a8621edc176df59d2f1b35ad8aa1a5089b442c812";
+			shellScript = "./Fabric.framework/run 8419153fba562e57532d0502ff0e71266daa9d2b 893db73d5b10829cf8bc486462762d54ad7a570dda80a3ea593d55effd94647a";
 		};
 		43C17FAA5EF3B400A5C3674E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -838,6 +849,7 @@
 				36B1D04F1D9BE68D000797B8 /* ComplaintUpdateStatusDTO.swift in Sources */,
 				36B1D0731D9BE7EB000797B8 /* FAQTableViewCell2.swift in Sources */,
 				36B1D0571D9BE68D000797B8 /* FeedItem.swift in Sources */,
+				F6FCDBE71DFFF8D4006DC1D2 /* GeneralInfor.swift in Sources */,
 				36B1D0181D9BE630000797B8 /* RandomImage.swift in Sources */,
 				36B1D0981D9BE84C000797B8 /* AccountCell.swift in Sources */,
 				36B1D0461D9BE68D000797B8 /* GISAddressDTO.swift in Sources */,

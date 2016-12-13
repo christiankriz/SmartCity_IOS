@@ -17,7 +17,8 @@ public class MenuController: UIViewController {
             //println("Button One Pressed")
         })
         let generalInforButton = UIAlertAction(title: "General Infor", style: .Default, handler: { (action) -> Void in
-            //println("Button Three Pressed")
+            self.presentViewController(GeneralInforConroller(), animated: true, completion: nil)
+            //self.navigationController?.pushViewController(GeneralInforConroller(), animated: true)
         })
         let logOff = UIAlertAction(title: "Log Off", style: .Default, handler: { (action) -> Void in
             //println("Button Four Pressed")
