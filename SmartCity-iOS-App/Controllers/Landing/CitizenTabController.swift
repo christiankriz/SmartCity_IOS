@@ -43,7 +43,7 @@ class CitizenTabController: UITabBarController {
             }
             
         })
-        let generalInforButton = UIAlertAction(title: "General Infor", style: .Default, handler: { (action) -> Void in
+        let generalInforButton = UIAlertAction(title: "General Menu", style: .Default, handler: { (action) -> Void in
             //self.navigationController?.pushViewController(GeneralInforConroller(), animated: true)
             self.performSegueWithIdentifier("toGeneralInforFromCityzenTab", sender: self)
         })

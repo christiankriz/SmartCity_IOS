@@ -9,12 +9,13 @@
 import UIKit
 
 class GeneralInforConroller: UIViewController {
-    @IBOutlet weak var inforLabel: UILabel!
-    
+    @IBOutlet weak var inforView: UITextView!
+        
        override func viewDidLoad() {
           super.viewDidLoad()
-          inforLabel.layer.borderWidth = 2.0
-          inforLabel.layer.borderColor = UIColor.grayColor().CGColor
+          inforView.layer.borderWidth = 2.0
+          inforView.layer.borderColor = UIColor.grayColor().CGColor
+          inforView.editable = false
        }
     
 

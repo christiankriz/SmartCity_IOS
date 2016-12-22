@@ -14,7 +14,7 @@ class NewsController: UITableViewController, FeedListener {
 	@IBOutlet weak var hamburger: UIBarButtonItem!
 
 	var feedItems: [FeedItem] = [FeedItem]()
-
+    var linkController : FeedLinkController!
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
@@ -80,14 +80,13 @@ class NewsController: UITableViewController, FeedListener {
 
 	override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
 		currentIndex = (indexPath as NSIndexPath).row
-		performSegueWithIdentifier(SEGUE_link, sender: self)
+		linkController.urlString = feedItems[currentIndex].link
 	}
 
 	// In a storyboard-based application, you will often want to do a little preparation before navigation
 	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 		if segue.identifier == SEGUE_link {
-			let linkController = segue.destinationViewController as! FeedLinkController
-			linkController.urlString = feedItems[currentIndex].link
+			linkController = segue.destinationViewController as! FeedLinkController
 		}
 	}
 	// override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {

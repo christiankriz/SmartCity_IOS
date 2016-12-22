@@ -59,6 +59,7 @@ class AlertInformationController: UIViewController, UIWebViewDelegate {
             webView.loadRequest(requestObj);
             webView.scalesPageToFit = true
             webView.contentMode = UIViewContentMode.ScaleAspectFit
+            webView.clipsToBounds = true
         }
     }
     

@@ -10,6 +10,7 @@ import Foundation
 import Gloss
 import ObjectMapper
 import Alamofire
+import UNAlertView
 
 class RSSUtil {
 
@@ -31,26 +32,33 @@ class RSSUtil {
 
 			switch response.result {
 			case .Success(let x):
-
-				let feedItems = FeedItems(json: x as! JSON)
-				if feedItems == nil || (feedItems?.feedItems.isEmpty)! {
-					listener.onFeedReceived([FeedItem]())
-					break
-				}
-				switch (type) {
-				case 1:
-					Util.setNewsFeedData((feedItems?.feedItems)!)
-					break
-				case 2:
-					Util.setAlertFeedData((feedItems?.feedItems)!)
-					break
-				default:
-
-					break
-				}
-				listener.onFeedReceived(feedItems!.feedItems)
+                if type == 2 && x.count < 1{
+                    let pop = UNAlertView(title: "Alerts", message: "There are no current alerts")
+                    pop.addButton("OK", backgroundColor: UIColor.blueColor()) {
+                        pop.hidden = true
+                    }
+                    pop.show()
+                    
+                }else{
+                    let feedItems = FeedItems(json: x as! JSON)
+                    if feedItems == nil || (feedItems?.feedItems.isEmpty)! {
+                        listener.onFeedReceived([FeedItem]())
+                        break
+                    }
+                    switch (type) {
+                    case 1:
+                        Util.setNewsFeedData((feedItems?.feedItems)!)
+                        break
+                    case 2:
+                        Util.setAlertFeedData((feedItems?.feedItems)!)
+                        break
+                    default:
+                        
+                        break
+                    }
+                    listener.onFeedReceived(feedItems!.feedItems)
+                }
 			case .Failure(let error):
-
 				Util.logMessage("******** Alamofire ERROR status: \(error.localizedDescription)")
 				// TODO - parse the error type and set appr messsage
 				listener.onError("Server unable to process request: \(error.localizedDescription)")

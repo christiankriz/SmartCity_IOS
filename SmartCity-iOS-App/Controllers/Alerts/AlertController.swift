@@ -14,6 +14,7 @@ class AlertController: UITableViewController, FeedListener {
 	@IBOutlet weak var hamburger: UIBarButtonItem!
 
 	var feedItems: [FeedItem] = [FeedItem]()
+    var linkController : AlertInformationController!
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -22,8 +23,6 @@ class AlertController: UITableViewController, FeedListener {
 		tableView.delegate = self
 		tableView.dataSource = self
         tableView.allowsSelection = true
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Menu", style: UIBarButtonItemStyle.Plain, target: self, action: "AlertInformationController().menuButtonPressed:")
-
 //		let nib = UINib(nibName: "TableSectionHeader", bundle: nil)
 //		tableView.registerNib(nib, forHeaderFooterViewReuseIdentifier: "TableSectionHeader")
         tableView.rowHeight = 120
@@ -76,33 +75,18 @@ class AlertController: UITableViewController, FeedListener {
 	var currentIndex = 0;
 
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        //currentIndex = (indexPath as NSIndexPath).row
-        //if feedItems[currentIndex].title != nil {
-            //print("link: \(feedItems[currentIndex].thumbnailUrl)")
-            //performSegueWithIdentifier(SEGUE_link, sender: self)
-            //performSegueWithIdentifier(SEGUE_alertDetail, sender: self)
-        //}
+        currentIndex = (indexPath as NSIndexPath).row
+        linkController.urlString = feedItems[currentIndex].description
+        linkController.heading = feedItems[currentIndex].title
+        linkController.iconImgUrl = feedItems[currentIndex].thumbnailUrl
+        linkController.pubDate = feedItems[currentIndex].pubDate
     }
 	
 
 	// In a storyboard-based application, you will often want to do a little preparation before navigation
 	override func prepareForSegue( segue: UIStoryboardSegue, sender: AnyObject?) {
 		if segue.identifier == SEGUE_alertDetail {
-			let linkController = segue.destinationViewController as! AlertInformationController
-			linkController.urlString = feedItems[currentIndex].description
-            linkController.heading = feedItems[currentIndex].title
-            linkController.iconImgUrl = feedItems[currentIndex].thumbnailUrl
-            linkController.pubDate = feedItems[currentIndex].pubDate
+			linkController = segue.destinationViewController as! AlertInformationController
 		}
 	}
-//	override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-//		// Dequeue with the reuse identifier
-//		let cellself.tableView.dequeueReusableHeaderFooterViewWithIdentifier("TableSectionHeader")
-//		let header = cell as! TableSectionHeader
-//		header.mTitle.text = "CITY ALERTS" = 
-//		header.mImage.image = RandomImage.getImage()
-//
-//		return cell
-//	}
-
 }

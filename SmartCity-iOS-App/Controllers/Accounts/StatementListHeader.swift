@@ -42,7 +42,7 @@ class StatementListHeader: UITableViewHeaderFooterView, DataProtocol {
 		let dict = response.pdfHashMap
 		for (key, _) in dict! {
 			print(key)
-			// Util.writeStatementToFile("\(key as! String).pdf", data: value as! NSArray)
+			//Util.writeStatementToFile("\(key as! String).pdf", data: dict?.valueForKey(key) as! NSArray)
 		}
 
 	}
