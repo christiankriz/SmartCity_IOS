@@ -80,6 +80,7 @@ class AlertController: UITableViewController, FeedListener {
         linkController.heading = feedItems[currentIndex].title
         linkController.iconImgUrl = feedItems[currentIndex].thumbnailUrl
         linkController.pubDate = feedItems[currentIndex].pubDate
+        
     }
 	
 

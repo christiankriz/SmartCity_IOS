@@ -39,6 +39,13 @@ class RSSUtil {
                     }
                     pop.show()
                     
+                }else if type == 1 && x.count < 1{
+                    let pop = UNAlertView(title: "News", message: "There are no current news")
+                    pop.addButton("OK", backgroundColor: UIColor.blueColor()) {
+                        pop.hidden = true
+                    }
+                    pop.show()
+                    
                 }else{
                     let feedItems = FeedItems(json: x as! JSON)
                     if feedItems == nil || (feedItems?.feedItems.isEmpty)! {

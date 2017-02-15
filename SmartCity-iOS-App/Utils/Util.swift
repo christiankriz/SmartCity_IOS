@@ -364,7 +364,7 @@ class Util {
 			// Get the directory contents urls (including subfolders urls)
 			let fileManager = NSFileManager.defaultManager()
 			let dirURL = fileManager.URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
-
+            print("pdf directory:", dirURL)
 			// let directoryContents = try FileManager.default.contentsOfDirectory(at: dirURL, includingPropertiesForKeys: nil, options: [])
 			// // if you want to filter the directory contents you can do like this:
 			let pdfFiles = dirURL.filter { $0.pathExtension == "pdf" }
@@ -376,6 +376,29 @@ class Util {
 		}
 		return pdfFileNames
 	}
+    
+    static func listOfStatementFiles() -> [String] {
+        var pdfFileNames = [String]()
+        // Get the document directory url
+        let documentsUrl =  NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask).first!
+        
+        do {
+            // Get the directory contents urls (including subfolders urls)
+            let directoryContents = try NSFileManager.defaultManager().contentsOfDirectoryAtURL( documentsUrl, includingPropertiesForKeys: nil, options: [])
+            print(directoryContents)
+            
+            // if you want to filter the directory contents you can do like this:
+            let pdfDirectoryFiles = directoryContents.filter{ $0.pathExtension == "pdf" }
+            print("pdf urls:",pdfDirectoryFiles)
+            pdfFileNames = pdfDirectoryFiles.flatMap({$0.URLByDeletingPathExtension?.lastPathComponent})
+            print("pdf list:", pdfFileNames)
+            
+        } catch let error as NSError {
+            print(error.localizedDescription)
+        }
+        return pdfFileNames
+    }
+
 	// static func listStatementUrls() -> [URL] {
 	// let fileManager = NSFileManager.defaultManager()
 	// let dirURL = fileManager.URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)

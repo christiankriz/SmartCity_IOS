@@ -3,6 +3,7 @@ PODS:
   - Cloudinary (1.0.15)
   - Crashlytics (3.8.3):
     - Fabric (~> 1.6.3)
+  - DLRadioButton (1.4.9)
   - DropDown (1.0.1)
   - Fabric (1.6.11)
   - Gloss (0.7.4)
@@ -14,6 +15,7 @@ DEPENDENCIES:
   - Alamofire (~> 3.1.2)
   - Cloudinary
   - Crashlytics
+  - DLRadioButton (~> 1.4)
   - DropDown (from `https://github.com/AssistoLab/DropDown`, branch `swift-2.2`)
   - Fabric
   - Gloss (~> 0.7.2)
@@ -35,6 +37,7 @@ SPEC CHECKSUMS:
   Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
   Cloudinary: f80af4565ec08c521d5e58cb56d9fbe1e4595e40
   Crashlytics: 2b6dbe138a42395577cfa73dfa1aa7248cadf39e
+  DLRadioButton: 7bb8a6e3768b572469ace553391ab4d2af6f9c19
   DropDown: 335df9e9547e97a861a60aed8448821e239d3513
   Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
   Gloss: d86009ef4d12c221d889c4e3f9e1eb547ee6251d
@@ -42,6 +45,6 @@ SPEC CHECKSUMS:
   Toast-Swift: 25c3d98db42dc70d9a77b5006ee000e0becb458e
   UNAlertView: d03f904fca18bc9cff44b5b4a923a413cf07b531
 
-PODFILE CHECKSUM: 42b0acb3c8973fc4b72f9d7c1ba8d6d36cb0b1e7
+PODFILE CHECKSUM: a8dc3b4b23d05d87f6e85fdf29b5f978e6681481
 
 COCOAPODS: 1.1.1

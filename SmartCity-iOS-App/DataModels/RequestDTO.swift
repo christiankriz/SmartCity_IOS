@@ -123,6 +123,7 @@ class RequestDTO: Mappable {
 	static let GET_PDF_STATEMENT: Int = 214
 	static let GET_NEWS_DETAIL: Int = 215
 	static let GET_ALERT_DETAIL: Int = 216
+    static let GET_IOS_PDF_STATEMENT: Int = 218
 
 	static let GET_MUNICIPALITY_DATA: Int = 300
 	static let GET_ALERTS_WITHIN_RADIUS: Int = 301

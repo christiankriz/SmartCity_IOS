@@ -13,6 +13,7 @@ class AccountListController: UITableViewController {
 
 	var list: [AccountDTO] = [AccountDTO]()
 	let SEGUE_detail = "accountDetailSegue"
+    var nav : AccountController!
 
 	var currentIndex = 0
 
@@ -59,12 +60,12 @@ class AccountListController: UITableViewController {
 	}
 	override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
 		currentIndex = (indexPath as NSIndexPath).row
-		performSegueWithIdentifier(SEGUE_detail, sender: self)
+        nav.account = list[currentIndex]
+		//performSegueWithIdentifier(SEGUE_detail, sender: self)
 	}
 	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 		if segue.identifier == SEGUE_detail {
-			let nav = segue.destinationViewController as! AccountController
-			nav.account = list[currentIndex]
+			nav = segue.destinationViewController as! AccountController
 		}
 	}
 	// override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {

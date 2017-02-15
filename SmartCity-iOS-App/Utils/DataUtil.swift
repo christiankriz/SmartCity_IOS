@@ -15,8 +15,12 @@ class DataUtil {
 
 	static var resp: ResponseDTO?
 	static var err: NSError?
-//	 static let url = "http://192.168.1.233:40405/sc/smart"
-	static let url = "http://smartcitydev.ocgroup.co.za/sc/smart"
+//  static let url = "http://192.168.1.233:40405/sc/smart"
+//	static let url = "http://smartcitydev.ocgroup.co.za/sc/smart"
+//  static let url = "http://10.0.0.110:8080/sc/smart"
+//  static let url = "http://icsmsdev1.oneconnectgroup.com/8585/smart"
+//    static let url = "http://localhost:8080/sc/smart"
+    static let url = "https://smartcity.ocgroup.co.za/sc/smart" //new host
 
 	static var muni: MunicipalityDTO?
 

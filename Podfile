@@ -26,8 +26,11 @@ end
   pod 'Toast-Swift', '~> 1.3.0'
   pod 'Cloudinary'
   pod 'Fabric'
+  pod 'DLRadioButton', '~> 1.4'
   pod 'Crashlytics'
   pod 'DropDown', :git => 'https://github.com/AssistoLab/DropDown', :branch =>  'swift-2.2'
+  pod 'Fabric'
+  pod 'Crashlytics'
   
   
 

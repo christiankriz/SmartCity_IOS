@@ -32,7 +32,7 @@ class AccountController: UITableViewController, DataProtocol {
 	var account: AccountDTO?
 	var profile: ProfileInfoDTO?
 	var muni: MunicipalityDTO?
-    let SEGUE_toStatementListSegue = "toStatementListSegue"
+    let SEGUE_toStatementListSegue = "toTestSegue"
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -80,20 +80,19 @@ class AccountController: UITableViewController, DataProtocol {
 	}
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == SEGUE_toStatementListSegue {
-            let linkController = segue.destinationViewController as! StatementListController
-            linkController.account = account
-        }
+        //if segue.identifier == SEGUE_toStatementListSegue {
+            let linkController = segue.destinationViewController as! StatementListDisplayController
+           linkController.account = account
+        //}
     }
 	var isStatement: Bool = false
-	@IBAction func downloadStatement(sender: AnyObject) {
-
-//		performSegueWithIdentifier(SEGUE_toStatementListSegue, sender: self)
-        let storyboard = UIStoryboard(name: "LandingStoryboard", bundle: nil)
-        let vc = storyboard.instantiateViewControllerWithIdentifier("StatementListNavigationController") as! StatementListNavigationController
-        vc.account = account
-        self.presentViewController(vc, animated: true, completion: nil)
-	}
+    
+    @IBAction func displayStatementList(sender: AnyObject) {
+        performSegueWithIdentifier("toTestSegue", sender: self)
+        
+    }
+	
+    
 	@IBAction func payBill(sender: AnyObject) {
 		Util.logMessage("paybill pressed - show message")
 		doToast("Payment via Mobile will be available soon")
