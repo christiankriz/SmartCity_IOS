@@ -22,7 +22,7 @@ class CitizenTabController: UITabBarController {
 		Util.logMessage("tabBarController?.selectedIndex \(page)")
 		title = "eThekwini Services"
         Util.logMessage("tabBarController?.selectedIndex \(page)")
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Menu", style: UIBarButtonItemStyle.Plain, target: self, action: "menuButtonPressed:")
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "menu"), style: UIBarButtonItemStyle.Plain, target: self, action: "menuButtonPressed:")
 	}
 
 	func setPageToStart(page: Int) {
@@ -47,6 +47,10 @@ class CitizenTabController: UITabBarController {
             //self.navigationController?.pushViewController(GeneralInforConroller(), animated: true)
             self.performSegueWithIdentifier("toGeneralInforFromCityzenTab", sender: self)
         })
+        let councillorInforButton = UIAlertAction(title: "Councillor Infor", style: .Default, handler: { (action) -> Void in
+            //self.navigationController?.pushViewController(GeneralInforConroller(), animated: true)
+            self.performSegueWithIdentifier("councillorSEGUE", sender: self)
+        })
         //let logOff = UIAlertAction(title: "Log Off", style: .Default, handler: { (action) -> Void in
             //self.logout(sender)
         //    Util.removeProfile()
@@ -59,6 +63,7 @@ class CitizenTabController: UITabBarController {
         //smartMenuController.addAction(emergencyContactButton)
         smartMenuController.addAction(generalInforButton)
         //smartMenuController.addAction(logOff)
+        smartMenuController.addAction(councillorInforButton)
         smartMenuController.addAction(buttonCancel)
         
         presentViewController(smartMenuController, animated: true, completion: nil)

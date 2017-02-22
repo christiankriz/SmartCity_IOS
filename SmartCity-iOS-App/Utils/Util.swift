@@ -259,6 +259,28 @@ class Util {
 		return resp!.feedItems
 
 	}
+    static func setCouncillorData(list: [CouncillorsItem]) {
+        let defaults = NSUserDefaults.standardUserDefaults()
+        let ci = CouncillorItems()
+        ci.councillorsItem = list
+        let JSONString = Mapper().toJSONString(ci, prettyPrint: false)
+        defaults.setValue(JSONString, forKey: Constants.NEWS_FEED_DATA)
+        
+        logMessage("councillor data: \(JSONString)")
+    }
+    static func getCouncillorData() throws -> [CouncillorsItem] {
+        let defaults = NSUserDefaults.standardUserDefaults()
+        var string: String?
+        string = defaults.valueForKey(Constants.COUNCILLOR_FEED_DATA) as? String
+        if (string == nil) {
+            throw Error.noResponseDataFound
+        }
+        let json = string!.parseJSONString
+        let resp = CouncillorItems(json: json as! JSON)
+        logMessage("cached news feed data retrieved: \(resp!.councillorsItem)")
+        return resp!.councillorsItem
+        
+    }
 
 	static func getData() -> ResponseDTO {
 		let file = "response.json"

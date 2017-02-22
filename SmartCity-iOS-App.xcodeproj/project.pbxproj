@@ -91,9 +91,16 @@
 		36B1D0A11D9BE882000797B8 /* LoginCitizenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B1D0A01D9BE882000797B8 /* LoginCitizenController.swift */; };
 		4EA1ED3D0C6AF4CFC12A1244 /* Pods_SmartCity_iOS_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9549E0B475748DE519F8DB01 /* Pods_SmartCity_iOS_AppUITests.framework */; };
 		B07DCAC83A095AC22A822265 /* Pods_SmartCity_iOS_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A998C4CBA7E19F1F69F4A588 /* Pods_SmartCity_iOS_AppTests.framework */; };
+		F60475701E387B0600FC87CD /* StatementListDisplayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F604756F1E387B0600FC87CD /* StatementListDisplayController.swift */; };
 		F610BF051DF6B86D00E47A0F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F610BF041DF6B86D00E47A0F /* MenuViewController.swift */; };
 		F665E0EC1DEEEA8F00C42919 /* AlertInforController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665E0EB1DEEEA8F00C42919 /* AlertInforController.swift */; };
+		F67B61D41E55B9CF00E096C5 /* CouncillorsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67B61D31E55B9CF00E096C5 /* CouncillorsItem.swift */; };
+		F67E87681E3A46B200C49EDF /* StatementDisplayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67E87671E3A46B200C49EDF /* StatementDisplayCell.swift */; };
+		F68144FF1E37433B00125F23 /* PdfDownloaderUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68144FE1E37433B00125F23 /* PdfDownloaderUtil.swift */; };
+		F6923B171E27CD0D00F8E9F2 /* StatementDownloadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6923B161E27CD0D00F8E9F2 /* StatementDownloadController.swift */; };
 		F69A56D21E0035340018DB69 /* LandingStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69A56D11E0035340018DB69 /* LandingStoryboard.storyboard */; };
+		F6F238A51E57048300D5EACD /* CouncillorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F238A41E57048300D5EACD /* CouncillorController.swift */; };
+		F6F238A71E572ED300D5EACD /* CouncillorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F238A61E572ED300D5EACD /* CouncillorCell.swift */; };
 		F6FCDBE71DFFF8D4006DC1D2 /* GeneralInfor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FCDBE61DFFF8D4006DC1D2 /* GeneralInfor.swift */; };
 /* End PBXBuildFile section */
 
@@ -211,9 +218,16 @@
 		AD9670DE37464F37A08F149F /* Pods_SmartCity_iOS_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartCity_iOS_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E90008AB671C56ACB41EDE /* Pods-SmartCity-iOS-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCity-iOS-App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartCity-iOS-App/Pods-SmartCity-iOS-App.debug.xcconfig"; sourceTree = "<group>"; };
 		E82D05A4CFB08C9D3D33DB0A /* Pods-SmartCity-iOS-AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartCity-iOS-AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartCity-iOS-AppTests/Pods-SmartCity-iOS-AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F604756F1E387B0600FC87CD /* StatementListDisplayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatementListDisplayController.swift; sourceTree = "<group>"; };
 		F610BF041DF6B86D00E47A0F /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		F665E0EB1DEEEA8F00C42919 /* AlertInforController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertInforController.swift; sourceTree = "<group>"; };
+		F67B61D31E55B9CF00E096C5 /* CouncillorsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouncillorsItem.swift; sourceTree = "<group>"; };
+		F67E87671E3A46B200C49EDF /* StatementDisplayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatementDisplayCell.swift; sourceTree = "<group>"; };
+		F68144FE1E37433B00125F23 /* PdfDownloaderUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PdfDownloaderUtil.swift; sourceTree = "<group>"; };
+		F6923B161E27CD0D00F8E9F2 /* StatementDownloadController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatementDownloadController.swift; sourceTree = "<group>"; };
 		F69A56D11E0035340018DB69 /* LandingStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LandingStoryboard.storyboard; sourceTree = "<group>"; };
+		F6F238A41E57048300D5EACD /* CouncillorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouncillorController.swift; sourceTree = "<group>"; };
+		F6F238A61E572ED300D5EACD /* CouncillorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouncillorCell.swift; sourceTree = "<group>"; };
 		F6FCDBE61DFFF8D4006DC1D2 /* GeneralInfor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralInfor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -316,6 +330,7 @@
 				36B1D00D1D9BE630000797B8 /* RandomImage.swift */,
 				36B1D00E1D9BE630000797B8 /* MonthYearPickerView.swift */,
 				36B0066A1DA3A31E006515DF /* Reachability.swift */,
+				F68144FE1E37433B00125F23 /* PdfDownloaderUtil.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -354,6 +369,7 @@
 				36B1D0371D9BE68D000797B8 /* ProfileImageDTO.swift */,
 				36B1D0381D9BE68D000797B8 /* FeedItem.swift */,
 				36B1D0391D9BE68D000797B8 /* EmergencyContact.swift */,
+				F67B61D31E55B9CF00E096C5 /* CouncillorsItem.swift */,
 			);
 			path = DataModels;
 			sourceTree = "<group>";
@@ -361,6 +377,8 @@
 		36B1D0591D9BE6CD000797B8 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F6F238A31E57045300D5EACD /* Councillor */,
+				F6707B801E35DB15000544E0 /* Components */,
 				F6FCDBE51DFFF8A1006DC1D2 /* GeneralInformation */,
 				F610BF031DF6B76F00E47A0F /* Menu */,
 				36B1D09F1D9BE868000797B8 /* Login */,
@@ -452,6 +470,9 @@
 				36B1D0931D9BE84C000797B8 /* StatementListHeader.swift */,
 				36B1D0941D9BE84C000797B8 /* StatementPDFViewerController.swift */,
 				36B1D0951D9BE84C000797B8 /* StatementListNavigationController.swift */,
+				F6923B161E27CD0D00F8E9F2 /* StatementDownloadController.swift */,
+				F604756F1E387B0600FC87CD /* StatementListDisplayController.swift */,
+				F67E87671E3A46B200C49EDF /* StatementDisplayCell.swift */,
 			);
 			path = Accounts;
 			sourceTree = "<group>";
@@ -493,6 +514,22 @@
 				F610BF041DF6B86D00E47A0F /* MenuViewController.swift */,
 			);
 			name = Menu;
+			sourceTree = "<group>";
+		};
+		F6707B801E35DB15000544E0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		F6F238A31E57045300D5EACD /* Councillor */ = {
+			isa = PBXGroup;
+			children = (
+				F6F238A41E57048300D5EACD /* CouncillorController.swift */,
+				F6F238A61E572ED300D5EACD /* CouncillorCell.swift */,
+			);
+			name = Councillor;
 			sourceTree = "<group>";
 		};
 		F6FCDBE51DFFF8A1006DC1D2 /* GeneralInformation */ = {
@@ -686,7 +723,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "./Fabric.framework/run 8419153fba562e57532d0502ff0e71266daa9d2b 893db73d5b10829cf8bc486462762d54ad7a570dda80a3ea593d55effd94647a";
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 8419153fba562e57532d0502ff0e71266daa9d2b 893db73d5b10829cf8bc486462762d54ad7a570dda80a3ea593d55effd94647a";
 		};
 		43C17FAA5EF3B400A5C3674E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -811,6 +848,7 @@
 				36B1D0741D9BE7EB000797B8 /* FAQIndependentController.swift in Sources */,
 				36B1D0691D9BE7CE000797B8 /* ContactsTableViewController.swift in Sources */,
 				36B1D0971D9BE84C000797B8 /* AccountListController.swift in Sources */,
+				F6F238A71E572ED300D5EACD /* CouncillorCell.swift in Sources */,
 				36B1D0961D9BE84C000797B8 /* AccountController.swift in Sources */,
 				36B1D0401D9BE68D000797B8 /* AlertTypeDTO.swift in Sources */,
 				36B1D0511D9BE68D000797B8 /* ContactDTO.swift in Sources */,
@@ -830,10 +868,12 @@
 				36B1D03F1D9BE68D000797B8 /* AlertImageDTO.swift in Sources */,
 				36B1D0541D9BE68D000797B8 /* CustomerTypeDTO.swift in Sources */,
 				36B1D0451D9BE68D000797B8 /* FreqQuestionTypeDTO.swift in Sources */,
+				F6923B171E27CD0D00F8E9F2 /* StatementDownloadController.swift in Sources */,
 				36B1D0831D9BE81C000797B8 /* AlertFeedItemCell.swift in Sources */,
 				36B1D09A1D9BE84C000797B8 /* StatementCell.swift in Sources */,
 				36B1D0471D9BE68D000797B8 /* MunicipalityCityDTO.swift in Sources */,
 				36B1D07A1D9BE804000797B8 /* NewsController.swift in Sources */,
+				F67B61D41E55B9CF00E096C5 /* CouncillorsItem.swift in Sources */,
 				36B1D07C1D9BE804000797B8 /* FeedLinkController.swift in Sources */,
 				36B1D04B1D9BE68D000797B8 /* UserDTO.swift in Sources */,
 				36B1D0551D9BE68D000797B8 /* PhotoUploadDTO.swift in Sources */,
@@ -845,8 +885,10 @@
 				36B1D05F1D9BE727000797B8 /* TouristTabController.swift in Sources */,
 				F665E0EC1DEEEA8F00C42919 /* AlertInforController.swift in Sources */,
 				36B1D0A11D9BE882000797B8 /* LoginCitizenController.swift in Sources */,
+				F6F238A51E57048300D5EACD /* CouncillorController.swift in Sources */,
 				36B1D00F1D9BE630000797B8 /* DataUtil.swift in Sources */,
 				36B1D04F1D9BE68D000797B8 /* ComplaintUpdateStatusDTO.swift in Sources */,
+				F67E87681E3A46B200C49EDF /* StatementDisplayCell.swift in Sources */,
 				36B1D0731D9BE7EB000797B8 /* FAQTableViewCell2.swift in Sources */,
 				36B1D0571D9BE68D000797B8 /* FeedItem.swift in Sources */,
 				F6FCDBE71DFFF8D4006DC1D2 /* GeneralInfor.swift in Sources */,
@@ -862,8 +904,10 @@
 				36B1D03E1D9BE68D000797B8 /* AlertDTO.swift in Sources */,
 				36B1D04E1D9BE68D000797B8 /* ComplaintFollowerDTO.swift in Sources */,
 				36B1D0531D9BE68D000797B8 /* CustomerStatusDTO.swift in Sources */,
+				F60475701E387B0600FC87CD /* StatementListDisplayController.swift in Sources */,
 				36B1D09D1D9BE84C000797B8 /* StatementPDFViewerController.swift in Sources */,
 				36B1D0991D9BE84C000797B8 /* StatementListController.swift in Sources */,
+				F68144FF1E37433B00125F23 /* PdfDownloaderUtil.swift in Sources */,
 				36B1D04D1D9BE68D000797B8 /* ComplaintCategoryDTO.swift in Sources */,
 				36B1D0481D9BE68D000797B8 /* MunicipalityDTO.swift in Sources */,
 				36B1CFD41D9BDD8D000797B8 /* AppDelegate.swift in Sources */,

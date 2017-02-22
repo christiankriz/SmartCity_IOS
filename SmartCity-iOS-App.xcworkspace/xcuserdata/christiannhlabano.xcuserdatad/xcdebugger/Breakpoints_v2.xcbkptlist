@@ -122,7 +122,7 @@
                   moduleName = "SmartCity-iOS-App"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/christiannhlabano/workspace/SmartCity-iOS-App/SmartCity-iOS-App/Controllers/MenuViewController.swift"
-                  timestampString = "504011644.2452"
+                  timestampString = "509447231.72223"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "22"
@@ -137,7 +137,7 @@
                   moduleName = "SmartCity-iOS-App"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/christiannhlabano/workspace/SmartCity-iOS-App/SmartCity-iOS-App/Controllers/MenuViewController.swift"
-                  timestampString = "504011644.245339"
+                  timestampString = "509447231.722366"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "22"
@@ -186,44 +186,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SmartCity-iOS-App/Controllers/Alerts/AlertController.swift"
-            timestampString = "503400723.170266"
+            timestampString = "507542529.03992"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
             landmarkName = "prepareForSegue(_:sender:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SmartCity-iOS-App/Utils/RSSUtil.swift"
-            timestampString = "503477691.256507"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "getFeed(_:type:listener:)"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SmartCity-iOS-App/Utils/RSSUtil.swift"
-            timestampString = "503477691.256507"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "getFeed(_:type:listener:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -266,11 +234,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementListHeader.swift"
-            timestampString = "503754189.273528"
+            timestampString = "505313067.848268"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "onResponseDataReceived(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -281,13 +249,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementPDFViewerController.swift"
-            timestampString = "503944017.605723"
+            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementListHeader.swift"
+            timestampString = "505380178.871343"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
-            landmarkName = "load()"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "onError(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -297,13 +265,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementPDFViewerController.swift"
-            timestampString = "503944017.605723"
+            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementListHeader.swift"
+            timestampString = "505910325.017281"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "107"
-            endingLineNumber = "107"
-            landmarkName = "load()"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "downloadStatements(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -313,29 +281,676 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementPDFViewerController.swift"
-            timestampString = "503944017.605723"
+            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementListController.swift"
+            timestampString = "505919572.826647"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "127"
-            endingLineNumber = "127"
-            landmarkName = "callServerlet()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementPDFViewerController.swift"
-            timestampString = "503944017.605723"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
             landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementListController.swift"
+            timestampString = "505919582.398592"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "prepareForSegue(_:sender:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementPDFViewerController.swift"
+            timestampString = "507542529.03992"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "webView(_:didFailLoadWithError:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Controllers/Accounts/AccountController.swift"
+            timestampString = "507115155.938766"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "AccountController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartCity_iOS_App.AccountController.lastBillAmount.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "SmartCity-iOS-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christiannhlabano/workspace/SmartCity-iOS-App/SmartCity-iOS-App/Controllers/Accounts/AccountController.swift"
+                  timestampString = "507115155.945129"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartCity_iOS_App.AccountController.lastBillAmount.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "SmartCity-iOS-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christiannhlabano/workspace/SmartCity-iOS-App/SmartCity-iOS-App/Controllers/Accounts/AccountController.swift"
+                  timestampString = "507115155.945506"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartCity_iOS_App.AccountController.init (style : __C.UITableViewStyle) -&gt; SmartCity_iOS_App.AccountController"
+                  moduleName = "SmartCity-iOS-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christiannhlabano/workspace/SmartCity-iOS-App/SmartCity-iOS-App/Controllers/Accounts/AccountController.swift"
+                  timestampString = "507115155.945667"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "572">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartCity_iOS_App.AccountController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; SmartCity_iOS_App.AccountController"
+                  moduleName = "SmartCity-iOS-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christiannhlabano/workspace/SmartCity-iOS-App/SmartCity-iOS-App/Controllers/Accounts/AccountController.swift"
+                  timestampString = "507115155.945818"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "660">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartCity_iOS_App.AccountController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;SmartCity_iOS_App.AccountController&gt;"
+                  moduleName = "SmartCity-iOS-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christiannhlabano/workspace/SmartCity-iOS-App/SmartCity-iOS-App/Controllers/Accounts/AccountController.swift"
+                  timestampString = "507115155.945974"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "572">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementListController.swift"
+            timestampString = "507128201.489736"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "onDownloadRequested(_:year:month:count:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementListController.swift"
+            timestampString = "507128212.339333"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "tableView(_:didSelectRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Controllers/Accounts/AccountController.swift"
+            timestampString = "507196927.326903"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "prepareForSegue(_:sender:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementListDisplayController.swift"
+            timestampString = "507546923.754426"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "StatementListDisplayController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementDownloadController.swift"
+            timestampString = "508425968.859076"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "statementDownload(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementDownloadController.swift"
+            timestampString = "508425968.859076"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "statementDownload(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Utils/PdfDownloaderUtil.swift"
+            timestampString = "507558814.239309"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "getPdf(_:listener:fileName:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementDownloadController.swift"
+            timestampString = "508425968.859076"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "statementDownload(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Utils/PdfDownloaderUtil.swift"
+            timestampString = "507558814.239309"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "getPdf(_:listener:fileName:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementDownloadController.swift"
+            timestampString = "508425968.859076"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "statementDownload(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementDownloadController.swift"
+            timestampString = "508425968.859076"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "statementDownload(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementDownloadController.swift"
+            timestampString = "508425968.859076"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "StatementDownloadController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementListDisplayController.swift"
+            timestampString = "507647741.918119"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "getMeStatement(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Controllers/Accounts/AccountListController.swift"
+            timestampString = "508334824.228473"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "prepareForSegue(_:sender:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementDownloadController.swift"
+            timestampString = "508426529.732683"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "onResponseDownloadReceived(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementListDisplayController.swift"
+            timestampString = "508649903.167297"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "prepareForSegue(_:sender:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementListDisplayController.swift"
+            timestampString = "508660271.2165"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "tableView(_:didSelectRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Controllers/Accounts/StatementListDisplayController.swift"
+            timestampString = "508660786.938246"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "getSelectedDate(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/DataModels/FeedItem.swift"
+            timestampString = "509375463.751178"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "FeedItems"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartCity_iOS_App.FeedItems.init (json : Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;) -&gt; Swift.Optional&lt;SmartCity_iOS_App.FeedItems&gt;"
+                  moduleName = "SmartCity-iOS-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christiannhlabano/workspace/SmartCity-iOS-App/SmartCity-iOS-App/DataModels/FeedItem.swift"
+                  timestampString = "509447231.743133"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartCity_iOS_App.FeedItems.init (ObjectMapper.Map) -&gt; Swift.Optional&lt;SmartCity_iOS_App.FeedItems&gt;"
+                  moduleName = "SmartCity-iOS-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christiannhlabano/workspace/SmartCity-iOS-App/SmartCity-iOS-App/DataModels/FeedItem.swift"
+                  timestampString = "509447231.743274"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartCity_iOS_App.FeedItems.init () -&gt; SmartCity_iOS_App.FeedItems"
+                  moduleName = "SmartCity-iOS-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christiannhlabano/workspace/SmartCity-iOS-App/SmartCity-iOS-App/DataModels/FeedItem.swift"
+                  timestampString = "509447231.743406"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartCity_iOS_App.FeedItems.feedItems.getter : Swift.Array&lt;SmartCity_iOS_App.FeedItem&gt;"
+                  moduleName = "SmartCity-iOS-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christiannhlabano/workspace/SmartCity-iOS-App/SmartCity-iOS-App/DataModels/FeedItem.swift"
+                  timestampString = "509447231.743547"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "25">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartCity_iOS_App.FeedItems.feedItems.setter : Swift.Array&lt;SmartCity_iOS_App.FeedItem&gt;"
+                  moduleName = "SmartCity-iOS-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christiannhlabano/workspace/SmartCity-iOS-App/SmartCity-iOS-App/DataModels/FeedItem.swift"
+                  timestampString = "509447231.743678"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "54">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/DataModels/CouncillorsItem.swift"
+            timestampString = "509375497.440301"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "CouncillorsItem"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartCity_iOS_App.CouncillorsItem.init () -&gt; SmartCity_iOS_App.CouncillorsItem"
+                  moduleName = "SmartCity-iOS-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christiannhlabano/workspace/SmartCity-iOS-App/SmartCity-iOS-App/DataModels/CouncillorsItem.swift"
+                  timestampString = "509375789.415228"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartCity_iOS_App.CouncillorsItem.init (json : Swift.Dictionary&lt;Swift.String, Swift.AnyObject&gt;) -&gt; Swift.Optional&lt;SmartCity_iOS_App.CouncillorsItem&gt;"
+                  moduleName = "SmartCity-iOS-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christiannhlabano/workspace/SmartCity-iOS-App/SmartCity-iOS-App/DataModels/CouncillorsItem.swift"
+                  timestampString = "509375789.415379"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartCity_iOS_App.CouncillorsItem.init (ObjectMapper.Map) -&gt; Swift.Optional&lt;SmartCity_iOS_App.CouncillorsItem&gt;"
+                  moduleName = "SmartCity-iOS-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christiannhlabano/workspace/SmartCity-iOS-App/SmartCity-iOS-App/DataModels/CouncillorsItem.swift"
+                  timestampString = "509375789.415504"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartCity_iOS_App.CouncillorsItem.id.getter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "SmartCity-iOS-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christiannhlabano/workspace/SmartCity-iOS-App/SmartCity-iOS-App/DataModels/CouncillorsItem.swift"
+                  timestampString = "509375789.415632"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SmartCity_iOS_App.CouncillorsItem.id.setter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "SmartCity-iOS-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/christiannhlabano/workspace/SmartCity-iOS-App/SmartCity-iOS-App/DataModels/CouncillorsItem.swift"
+                  timestampString = "509375789.415834"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "158">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/DataModels/CouncillorsItem.swift"
+            timestampString = "509375504.312281"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "mapping(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Controllers/CouncillorCell.swift"
+            timestampString = "509380056.820031"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "setCouncillorItem(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Controllers/CouncillorController.swift"
+            timestampString = "509447231.460865"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SmartCity-iOS-App/Controllers/CouncillorController.swift"
+            timestampString = "509447231.460865"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "onCouncillorReceived(_:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

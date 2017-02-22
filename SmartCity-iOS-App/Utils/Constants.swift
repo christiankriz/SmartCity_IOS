@@ -18,6 +18,7 @@ class Constants {
 	static let RESPONSE_DATA = "com.boha.RESPONSE"
 	static let ALERT_FEED_DATA = "com.boha.alertFEED"
 	static let NEWS_FEED_DATA = "com.boha.newsFEED"
+    static let COUNCILLOR_FEED_DATA = "com.boha.councillorFEED"
 
 	static let CLOUDINARY_NAME = "bohatmx"
 	static let CLOUDINARY_API_KEY = "397571984789619"
