@@ -99,6 +99,7 @@
 		F68144FF1E37433B00125F23 /* PdfDownloaderUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68144FE1E37433B00125F23 /* PdfDownloaderUtil.swift */; };
 		F6923B171E27CD0D00F8E9F2 /* StatementDownloadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6923B161E27CD0D00F8E9F2 /* StatementDownloadController.swift */; };
 		F69A56D21E0035340018DB69 /* LandingStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69A56D11E0035340018DB69 /* LandingStoryboard.storyboard */; };
+		F6C85E851E5EBA660059C173 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C85E841E5EBA660059C173 /* SWRevealViewController.m */; };
 		F6F238A51E57048300D5EACD /* CouncillorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F238A41E57048300D5EACD /* CouncillorController.swift */; };
 		F6F238A71E572ED300D5EACD /* CouncillorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F238A61E572ED300D5EACD /* CouncillorCell.swift */; };
 		F6FCDBE71DFFF8D4006DC1D2 /* GeneralInfor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FCDBE61DFFF8D4006DC1D2 /* GeneralInfor.swift */; };
@@ -226,6 +227,9 @@
 		F68144FE1E37433B00125F23 /* PdfDownloaderUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PdfDownloaderUtil.swift; sourceTree = "<group>"; };
 		F6923B161E27CD0D00F8E9F2 /* StatementDownloadController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatementDownloadController.swift; sourceTree = "<group>"; };
 		F69A56D11E0035340018DB69 /* LandingStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LandingStoryboard.storyboard; sourceTree = "<group>"; };
+		F6C85E821E5EBA650059C173 /* SmartCity-iOS-App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartCity-iOS-App-Bridging-Header.h"; sourceTree = "<group>"; };
+		F6C85E831E5EBA660059C173 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		F6C85E841E5EBA660059C173 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		F6F238A41E57048300D5EACD /* CouncillorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouncillorController.swift; sourceTree = "<group>"; };
 		F6F238A61E572ED300D5EACD /* CouncillorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CouncillorCell.swift; sourceTree = "<group>"; };
 		F6FCDBE61DFFF8D4006DC1D2 /* GeneralInfor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralInfor.swift; sourceTree = "<group>"; };
@@ -284,6 +288,7 @@
 		36B1CFD21D9BDD8D000797B8 /* SmartCity-iOS-App */ = {
 			isa = PBXGroup;
 			children = (
+				F6C85E811E5EBA4A0059C173 /* SWRevealViewController */,
 				F69A56D11E0035340018DB69 /* LandingStoryboard.storyboard */,
 				36B1D0591D9BE6CD000797B8 /* Controllers */,
 				36B1D01A1D9BE65E000797B8 /* DataModels */,
@@ -521,6 +526,16 @@
 			children = (
 			);
 			name = Components;
+			sourceTree = "<group>";
+		};
+		F6C85E811E5EBA4A0059C173 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F6C85E831E5EBA660059C173 /* SWRevealViewController.h */,
+				F6C85E841E5EBA660059C173 /* SWRevealViewController.m */,
+				F6C85E821E5EBA650059C173 /* SmartCity-iOS-App-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
 			sourceTree = "<group>";
 		};
 		F6F238A31E57045300D5EACD /* Councillor */ = {
@@ -872,6 +887,7 @@
 				36B1D0831D9BE81C000797B8 /* AlertFeedItemCell.swift in Sources */,
 				36B1D09A1D9BE84C000797B8 /* StatementCell.swift in Sources */,
 				36B1D0471D9BE68D000797B8 /* MunicipalityCityDTO.swift in Sources */,
+				F6C85E851E5EBA660059C173 /* SWRevealViewController.m in Sources */,
 				36B1D07A1D9BE804000797B8 /* NewsController.swift in Sources */,
 				F67B61D41E55B9CF00E096C5 /* CouncillorsItem.swift in Sources */,
 				36B1D07C1D9BE804000797B8 /* FeedLinkController.swift in Sources */,
@@ -1062,6 +1078,7 @@
 			baseConfigurationReference = C7E90008AB671C56ACB41EDE /* Pods-SmartCity-iOS-App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "SmartCity-iOS-App/Info.plist";
@@ -1069,6 +1086,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oneconnectgroup.SmartCity-iOS-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartCity-iOS-App/SmartCity-iOS-App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -1077,6 +1096,7 @@
 			baseConfigurationReference = 2E700CE1170F2A8E155FCE8F /* Pods-SmartCity-iOS-App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "SmartCity-iOS-App/Info.plist";
@@ -1084,6 +1104,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oneconnectgroup.SmartCity-iOS-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartCity-iOS-App/SmartCity-iOS-App-Bridging-Header.h";
 			};
 			name = Release;
 		};
